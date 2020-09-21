@@ -7,7 +7,7 @@ var settings = {
     'content-type': 'application/json',
   },
   data:
-    '{"client_id":"N0REnrxkr3N2HWxHr1lVnVnWlyKCwYdm","client_secret":"YGn-l_OH6RywOUQ9BqC5ne2wftjiIOusvhmC425T1zTXn7Bz8dFsWC9H3x5nXR5V","audience":"https://fiservseminars.us.auth0.com/api/v2/","grant_type":"client_credentials"}',
+    '{"client_id":"N0REnrxkr3N2HWxHr1lVnVnWlyKCwYdm","client_secret":"YGn-l_OH6RywOUQ9BqC5ne2wftjiIOusvhmC425T1zTXn7Bz8dFsWC9H3x5nXR5V","audience":"https://fiservseminars.us.auth0.com/api/v2/users","grant_type":"client_credentials"}',
 };
 
 $.ajax(settings).done(function (response) {
